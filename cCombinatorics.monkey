@@ -2,8 +2,8 @@ Strict
 
 Class Combinatorics
 	' Permutation count
-	' from Permute permute = fPp = from! / (from - permute)!
-	Function Permute:Int(from:Int, permute:Int)
+	' from Permutations permute = fPp = from! / (from - permute)!
+	Function PermutationsCount:Int(from:Int, permute:Int)
 		Local result:Int = 1
 		While (permute > 0)
 			result *= from
@@ -21,7 +21,7 @@ Class Combinatorics
 			Return 0
 		EndIf
 		
-		Local result:Int = Permute(from, choose) / Factorial(choose)
+		Local result:Int = PermutationsCount(from, choose) / Factorial(choose)
 		
 		Return result
 	End Function
@@ -29,7 +29,7 @@ Class Combinatorics
 	' Calculates number!
 	Function Factorial:Int(number:Int)
 		Local result:Int
-		result = Permute(number, number)
+		result = PermutationsCount(number, number)
 		
 		Return result
 	End Function
@@ -54,7 +54,7 @@ Class Combinatorics
 	Function FactorialRadix:Int[] (number:Int, places:Int = 0)
 		Local factor:Int = 1
 		If Not (places)
-			places = 1
+			places = 0
 			While (factor < number)
 				places += 1
 				factor *= places
@@ -68,14 +68,15 @@ Class Combinatorics
 			factor = Factorial(places)
 		EndIf
 		
-		Local result:IntStack = New IntStack()
+		Local result:Int[places + 1]
+		result[0] = 0
 		While (places)
-			result.Push(Floor(number / factor))
+			result[places] = Floor(number / factor)
 			number = number Mod factor
 			factor /= places
 			places -= 1
 		Wend
 		
-		Return result.ToArray()
+		Return result
 	End Function
 End Class

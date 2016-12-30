@@ -1,17 +1,19 @@
 Strict
 
 Import cCombinator
+Import cPermutor
 Import mojo
 Import cTernary
 
 Function Main:Int()
 	Local date:Int[] = GetDate()
 	Seed = date[5] | date[6]
-	Local aString:String = "abcdefghijklmnopqrst"
+	Local aString:String = "abcdefgh"
 	Local elements:String[] = aString.Split("")
-	Local numberToChoose:Int = 10
+	Local numberToChoose:Int = 4
 	Local ic:Combinator<String> = New Combinator<String>(elements, numberToChoose)
 
+	Print "======== Testing Combinator ========"
 	Print "Generating entire series of " + ic.Length() + " combinations."
 	Local milliseconds:Int = Millisecs()
 	While (ic.NextValue())
@@ -60,6 +62,19 @@ Function Main:Int()
 	Print "After after filter:"
 	Print targetIndex + ": " + Implode(ic.GetValueAtIndex(targetIndex))
 
+	
+	aString = "abcd"
+	elements = aString.Split("")
+	numberToChoose = 2
+	Print "======== Testing Permutor ========"
+	Local ip:Permutor<String> = New Permutor<String>(elements, numberToChoose)
+	Print "There are " + ip.Length() + " permutations in " + elements.Length + "P" + numberToChoose
+
+	Print Implode(ip.NextValue())
+'	Print Implode(ip.NextValue())
+'	Print Implode(ip.NextValue())
+'	Print Implode(ip.NextValue())
+	
 	Return 0
 End Function
 
