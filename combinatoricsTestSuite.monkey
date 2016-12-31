@@ -65,20 +65,14 @@ Function Main:Int()
 	
 	aString = "abcd"
 	elements = aString.Split("")
-	numberToChoose = 2
+	numberToChoose = 4
 	Print "======== Testing Permutor ========"
-	Local ip:Permutor<String> = New Permutor<String>(elements, numberToChoose)
+	Local ip:Permutor<String> = New Permutor<String>(elements)
 	Print "There are " + ip.Length() + " permutations in " + elements.Length + "P" + numberToChoose
-
-	Print Implode(ip.NextValue())
-'	Print Implode(ip.NextValue())
-'	Print Implode(ip.NextValue())
-'	Print Implode(ip.NextValue())
-	
 	Return 0
 End Function
 
-Class NextValueFilter<T> Implements ICombinatorCallback <T>
+Class NextValueFilter<T> Implements ICombinatorCallback<T>
 	Method Execute:T(value:T)
 		Local result:T
 		result = value + value
@@ -88,6 +82,14 @@ Class NextValueFilter<T> Implements ICombinatorCallback <T>
 End Class
 	
 Function Implode:String(arr:String[])
+	Local s:String
+	For Local element:String = EachIn(arr)
+		s += element
+	Next
+	
+	Return s
+End Function
+Function Implode:String(arr:Int[])
 	Local s:String
 	For Local element:String = EachIn(arr)
 		s += element
