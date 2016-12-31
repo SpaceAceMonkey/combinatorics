@@ -23,14 +23,6 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		currentSeriesPosition += 1
 	End Method
 
-	' Sets the initial bit pattern which will be used to select elements
-	' from the elements array to form a combination.
-	Method Reset:Void()
-		combinationBitPattern = (1 Shl groupSize) - 1
-		currentSeriesPosition = -1
-		currentValue = New T[groupSize]
-	End Method
-	
 	Public
 	' Initialize a new Combinator. Elements is an array of type T, and
 	' groupSize is the number of elements to use in each combination.
@@ -57,6 +49,14 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Reset()
 	End Method
 
+	' Sets the initial bit pattern which will be used to select elements
+	' from the elements array to form a combination.
+	Method Reset:Void()
+		combinationBitPattern = (1 Shl groupSize) - 1
+		currentSeriesPosition = -1
+		currentValue = New T[groupSize]
+	End Method
+	
 	' Generates the next combination of elements, and returns it as
 	' an array. Elements are selected from the elements array based
 	' on the bits in combinationBitsPattern. For instance, a bit
@@ -102,7 +102,7 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		EndIf
 		
 		Local _combinationBitPattern:Int = combinationBitPattern
-		Local _currentValue:String[] = currentValue[ ..]
+		Local _currentValue:T[] = currentValue[ ..]
 		Local _currentSeriesPosition:Int = currentSeriesPosition
 		
 		Reset()

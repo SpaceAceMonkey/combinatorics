@@ -47,7 +47,6 @@ Class CombinatoricsGenerator<T> Implements ICombinatoricsGenerator<T> Abstract
 		For Local seriesIndex:Int = 0 To length - 1
 			results[seriesIndex] = NextValue()
 		Next
-
 		Return results
 	End Method
 
@@ -64,7 +63,7 @@ Class CombinatoricsGenerator<T> Implements ICombinatoricsGenerator<T> Abstract
 	End Method
 	
 	Method GetGetCurrentValue:T[] ()
-		Return currentValue
+		Return currentValue[..]
 	End Method
 	
 	Method GetCurrentSeriesPosition:Int()

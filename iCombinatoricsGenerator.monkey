@@ -10,6 +10,9 @@ Interface ICombinatoricsGenerator<T>
 	' This may disappear from the interface definition in the future.
 	' I haven't decided if it's worth requiring.
 	Method GetCurrentValue:T()
+	' Resets the internal pointer so that the series will be generated
+	' starting from the beginning on the next call to NextValue().
+	Method Reset:Void()
 	
 	''''
 	''''	Information methods

@@ -8,9 +8,21 @@ Import cTernary
 Function Main:Int()
 	Local date:Int[] = GetDate()
 	Seed = date[5] | date[6]
+
 	Local aString:String = "abcdefgh"
-	Local elements:String[] = aString.Split("")
 	Local numberToChoose:Int = 4
+
+	TestCombinator(aString, numberToChoose)
+
+	aString = "abcdefgh"
+	TestPermutor(aString)
+	
+
+	Return 0
+End Function
+
+Function TestCombinator:Void(aString:String, numberToChoose:Int)
+	Local elements:String[] = aString.Split("")
 	Local ic:Combinator<String> = New Combinator<String>(elements, numberToChoose)
 
 	Print "======== Testing Combinator ========"
@@ -36,7 +48,7 @@ Function Main:Int()
 	Local listResult:List<String[] > = ic.ToList()
 	Print "List of length " + listResult.Count() + " generated in " + (Millisecs() -milliseconds) + " milliseconds."
 
-	' 
+	'
 	Print "Checking GetValueAtIndex."
 	Local targetIndex:Int = Rnd(ic.Length())
 	milliseconds = Millisecs()
@@ -61,16 +73,39 @@ Function Main:Int()
 	ic.SetNextValueFilter(Null)
 	Print "After after filter:"
 	Print targetIndex + ": " + Implode(ic.GetValueAtIndex(targetIndex))
+End Function
 
-	
-	aString = "abcd"
-	elements = aString.Split("")
-	numberToChoose = 4
+Function TestPermutor:Void(aString:String)
+	Local elements:String[] = aString.Split("")
+
 	Print "======== Testing Permutor ========"
 	Local ip:Permutor<String> = New Permutor<String>(elements)
-	Print "There are " + ip.Length() + " permutations in " + elements.Length + "P" + numberToChoose
-	Return 0
+	Print "There are " + ip.Length() + " permutations of " + elements.Length + " items."
+	Local halfway:Int = ip.Length() / 2
+	Local milliseconds:Int = Millisecs()
+	Local tmpValue:String[]
+	While (ip.NextValue())
+		If (ip.GetCurrentSeriesPosition() = halfway)
+			tmpValue = ip.GetGetCurrentValue()
+		EndIf
+	Wend
+	Print "Series generated in " + (Millisecs() -milliseconds) + " milliseconds."
+	Print "First generated value = " + Implode(ip.GetValueAtIndex(0))
+	Print "Half-way value via NextValue() = " + Implode(tmpValue)
+	Print "Half-way value via GetValueAtIndex() = " + Implode(ip.GetValueAtIndex(halfway))
+	'	Print "Last generated value = " + Implode(ip.GetGetCurrentValue()) + "."
+
+	Print "Resetting and generating array."
+	milliseconds = Millisecs()
+	Local arrayResult:String[][] = ip.ToArray()
+	Print "Array of length " + arrayResult.Length + " generated in " + (Millisecs() -milliseconds) + " milliseconds."
+	Print "Half-way value in array = " + Implode(arrayResult[halfway])
 End Function
+
+
+
+
+
 
 Class NextValueFilter<T> Implements ICombinatorCallback<T>
 	Method Execute:T(value:T)
