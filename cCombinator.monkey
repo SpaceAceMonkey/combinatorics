@@ -50,7 +50,10 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 	End Method
 
 	' Sets the initial bit pattern which will be used to select elements
-	' from the elements array to form a combination.
+	' from the elements array to form a combination. This functionality
+	' is specific to the Combinator class. In general, Reset() should
+	' put the current object into the same state it was in when it was
+	' newly created.
 	Method Reset:Void()
 		combinationBitPattern = (1 Shl groupSize) - 1
 		currentSeriesPosition = -1

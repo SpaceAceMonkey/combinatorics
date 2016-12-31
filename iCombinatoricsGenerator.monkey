@@ -1,3 +1,5 @@
+Import iCombinatorCallback
+
 Interface ICombinatoricsGenerator<T>
 	''''
 	''''	Generation methods
@@ -41,5 +43,5 @@ Interface ICombinatoricsGenerator<T>
 	' The value returned from NextValue() will be passed to the ICombinatorCallback's
 	' Execute() method. The T value returned from Execute() will be used in place of
 	' the original value when building the current combination.
-	Method SetNextValueFilter:T(callback:ICombinatorCallback)
+	Method SetNextValueFilter:Void(callback:ICombinatorCallback<T>)
 End Interface

@@ -7,9 +7,6 @@ Import cCombinator
 ' See comments in cCombinator.monkey for overviews of the
 ' interface methods.
 Class Permutor<T> Extends CombinatoricsGenerator<T>
-	Private
-	Field combinator:Combinator<T>
-	
 	Public
 	' Initialize a new Permutor. Elements is an array of type T, and
 	' groupSize is the number of elements to use in each permutation.
@@ -22,7 +19,6 @@ Class Permutor<T> Extends CombinatoricsGenerator<T>
 		groupSize = elements.Length
 		length = Combinatorics.PermutationsCount(elements.Length, groupSize)
 		Reset()
-		combinator = New Combinator<T>(elements, groupSize)
 	End Method
 
 	Method NextValue:T[] ()
@@ -34,8 +30,15 @@ Class Permutor<T> Extends CombinatoricsGenerator<T>
 		currentSeriesPosition += 1
 		Local digits:Int[] = Combinatorics.FactorialRadix(currentSeriesPosition, groupSize)
 		Local _elements:T[] = elements[ ..]
+		Local filterAvailable:Bool = (nextValueFilter <> Null)
+
 		For Local i:Int = groupSize - 1 To 0 Step - 1
-			currentValue[i] = _elements[digits[i]]
+			If (filterAvailable)
+				currentValue[i] = nextValueFilter.Execute(_elements[digits[i]])
+			Else
+				currentValue[i] = _elements[digits[i]]
+			EndIf
+			
 			For Local j:Int = digits[i] To _elements.Length - 2
 				_elements[j] = _elements[j + 1]
 			Next
@@ -53,7 +56,6 @@ Class Permutor<T> Extends CombinatoricsGenerator<T>
 	Method Reset:Void()
 		currentSeriesPosition = -1
 		currentValue = New T[groupSize]
-		combinator = New Combinator<T>(elements, groupSize)
 	End Method
 
 	Method GetValueAtIndex:T[] (index:Int)

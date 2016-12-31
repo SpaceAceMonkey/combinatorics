@@ -61,18 +61,8 @@ Function TestCombinator:Void(aString:String, numberToChoose:Int)
 	Else
 		Print "Oh, no! They do not match. Something is wrong."
 	EndIf
-
-	Print "Testing NextValueFilter."
-	Print "Before filter:"
-	targetIndex = Rnd(ic.Length())
-	Print targetIndex + ": " + Implode(arrayResult[targetIndex])
-	Local nextValueFilter:NextValueFilter<String> = New NextValueFilter<String>()
-	ic.SetNextValueFilter(nextValueFilter)
-	Print "After filter:"
-	Print targetIndex + ": " + Implode(ic.GetValueAtIndex(targetIndex))
-	ic.SetNextValueFilter(Null)
-	Print "After after filter:"
-	Print targetIndex + ": " + Implode(ic.GetValueAtIndex(targetIndex))
+	
+	TestNextValueFilter(ic)
 End Function
 
 Function TestPermutor:Void(aString:String)
@@ -100,9 +90,23 @@ Function TestPermutor:Void(aString:String)
 	Local arrayResult:String[][] = ip.ToArray()
 	Print "Array of length " + arrayResult.Length + " generated in " + (Millisecs() -milliseconds) + " milliseconds."
 	Print "Half-way value in array = " + Implode(arrayResult[halfway])
+
+	TestNextValueFilter(ip)
 End Function
 
-
+Function TestNextValueFilter:Void(g:ICombinatoricsGenerator<String>)
+	Print "Testing NextValueFilter."
+	Print "Before filter:"
+	Local targetIndex% = Rnd(g.Length())
+	Print targetIndex + ": " + Implode(g.GetValueAtIndex(targetIndex))
+	Local nextValueFilter:NextValueFilter<String> = New NextValueFilter<String>()
+	g.SetNextValueFilter(nextValueFilter)
+	Print "After filter:"
+	Print targetIndex + ": " + Implode(g.GetValueAtIndex(targetIndex))
+	g.SetNextValueFilter(Null)
+	Print "After after filter:"
+	Print targetIndex + ": " + Implode(g.GetValueAtIndex(targetIndex))
+End Function
 
 
 
