@@ -26,6 +26,18 @@ Class Combinatorics
 		Return result
 	End Function
 	
+	' Calculates the number of permutations of elements in groups
+	' sized from one to elements.Length.
+	Function MassPermutationsCount:Int(numberOfElements:Int)
+		Local result:Int = 0
+		For Local i:Int = 1 To numberOfElements
+			Local permutations:Int = PermutationsCount(numberOfElements, i)
+			result += permutations
+		Next
+		
+		Return result
+	End Function
+	
 	' Calculates number!
 	Function Factorial:Int(number:Int)
 		Local result:Int
@@ -67,7 +79,7 @@ Class Combinatorics
 		Else
 			factor = Factorial(places)
 		EndIf
-		
+
 		Local result:Int[places + 1]
 		result[0] = 0
 		While (places)

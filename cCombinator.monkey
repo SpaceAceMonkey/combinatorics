@@ -46,6 +46,7 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		elements = _elements
 		length = Combinatorics.Choose(elements.Length, groupSize)
 		maximumIndex = 1 Shl elements.Length
+
 		Reset()
 	End Method
 
@@ -70,7 +71,7 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 	' is why this generator can only work with element lists
 	' containing less than thirty-one items.
 	Method NextValue:T[] ()
-		If (combinationBitPattern > maximumIndex)
+		If (combinationBitPattern >= maximumIndex)
 			Return NIL
 		EndIf
 		
@@ -79,7 +80,7 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Local tmpIndex:Int = combinationBitPattern
 		Local elementTransformAvailable:Bool = (nextElementTransform <> Null)
 		Local valueTransformAvailable:Bool = (nextValueTransform <> Null)
-		
+
 		While (tmpIndex)
 			If (tmpIndex & 1)
 				If (elementTransformAvailable)

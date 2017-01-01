@@ -26,10 +26,7 @@ Class CombinatoricsGenerator<T> Implements ICombinatoricsGenerator<T> Abstract
 	Field currentSeriesPosition:Int
 	' The number of combinations/permutations in the generator's space
 	Field length:Int
-	' The combination group size this generator is configured for. We could shave
-	' microseconds by calculating and storing the initial combinationBitPattern
-	' inside New(), but it is convenient to have this piece of information handy,
-	' and we shouldn't be calling Reset() often enough for it to matter.
+	' The combination group size this generator is configured for.
 	Field groupSize:Int
 
 	Public
@@ -74,7 +71,7 @@ Class CombinatoricsGenerator<T> Implements ICombinatoricsGenerator<T> Abstract
 		Return result
 	End Method
 	
-	Method GetGetCurrentValue:T[] ()
+	Method GetCurrentValue:T[] ()
 		Return currentValue[..]
 	End Method
 	
