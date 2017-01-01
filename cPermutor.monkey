@@ -23,18 +23,18 @@ Class Permutor<T> Extends CombinatoricsGenerator<T>
 
 	Method NextValue:T[] ()
 		If (currentSeriesPosition >= length - 1)
-			Local emptyResult:T[]
-			Return emptyResult
+			Return NIL
 		EndIf
 
 		currentSeriesPosition += 1
 		Local digits:Int[] = Combinatorics.FactorialRadix(currentSeriesPosition, groupSize)
 		Local _elements:T[] = elements[ ..]
-		Local filterAvailable:Bool = (nextValueFilter <> Null)
+		Local filterAvailable:Bool = (nextElementTransform <> Null)
+		Local valueTransformAvailable:Bool = (nextValueTransform <> Null)
 
 		For Local i:Int = groupSize - 1 To 0 Step - 1
 			If (filterAvailable)
-				currentValue[i] = nextValueFilter.Execute(_elements[digits[i]])
+				currentValue[i] = nextElementTransform.Execute(_elements[digits[i]])
 			Else
 				currentValue[i] = _elements[digits[i]]
 			EndIf
@@ -44,6 +44,10 @@ Class Permutor<T> Extends CombinatoricsGenerator<T>
 			Next
 		Next
 
+		If (valueTransformAvailable)
+			Return nextValueTransform.Execute(currentValue)[ ..]
+		EndIf
+		
 		Return currentValue[..]
 	End Method
 	

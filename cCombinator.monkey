@@ -71,19 +71,19 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 	' containing less than thirty-one items.
 	Method NextValue:T[] ()
 		If (combinationBitPattern > maximumIndex)
-			Local emptyResult:T[]
-			Return emptyResult
+			Return NIL
 		EndIf
 		
 		Local i:Int = 0
 		Local j:Int = 0
 		Local tmpIndex:Int = combinationBitPattern
-		Local filterAvailable:Bool = (nextValueFilter <> Null)
+		Local elementTransformAvailable:Bool = (nextElementTransform <> Null)
+		Local valueTransformAvailable:Bool = (nextValueTransform <> Null)
 		
 		While (tmpIndex)
 			If (tmpIndex & 1)
-				If (filterAvailable)
-					currentValue[j] = nextValueFilter.Execute(elements[i])
+				If (elementTransformAvailable)
+					currentValue[j] = nextElementTransform.Execute(elements[i])
 				Else
 					currentValue[j] = elements[i]
 				EndIf
@@ -95,6 +95,10 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Wend
 
 		AdvancePointer()
+		
+		If (valueTransformAvailable)
+			Return nextValueTransform.Execute(currentValue)[ ..]
+		EndIf
 		
 		Return currentValue[ ..]
 	End Method

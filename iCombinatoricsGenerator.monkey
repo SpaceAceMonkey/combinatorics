@@ -34,14 +34,17 @@ Interface ICombinatoricsGenerator<T>
 	' series.
 	Method GetValueAtIndex:T[](index:Int)
 	' Return all values as an array
-	Method ToArray:T[] ()
+	Method ToArray:T[][] ()
 	
 	''''
 	''''	Data manipulation methods
 	''''
 	' Set an ICombinatorCallback which will be executed on every call to NextValue().
 	' The value returned from NextValue() will be passed to the ICombinatorCallback's
-	' Execute() method. The T value returned from Execute() will be used in place of
-	' the original value when building the current combination.
-	Method SetNextValueFilter:Void(callback:ICombinatorCallback<T>)
+	' Execute() method. The T[] value returned from Execute() will be
+	' returned from NextValue().
+	Method SetNextValueTransform:Void(callback:ICombinatorCallback<T[]>)
+	' Set an ICombinatorCallback which will be executed on each element as it is
+	' selected for inclusion in a combination of permutation.
+	Method SetNextElementTransform:Void(callback:ICombinatorCallback<T>)
 End Interface
