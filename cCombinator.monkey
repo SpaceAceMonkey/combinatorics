@@ -2,18 +2,26 @@ Strict
 
 Import cCombinatoricsGenerator
 
-' Generates combinations of elements from a given element pool. The number of elements
-' in the pool must be less than 31. See NextValue() for a brief explanation.
+#rem monkeydoc
+	Generates combinations of elements from a given element pool. The number of elements
+	in the pool must be less than 31. See NextValue() for a brief explanation.
+#END
 Class Combinator<T> Extends CombinatoricsGenerator<T>
 	Private
-	' A bit pattern used to mask against items in the elements array.
+	#rem monkeydoc
+		A bit pattern used to mask against items in the elements array.
+	#END
 	Field combinationBitPattern:Int
-	' The maximum possible index. This is, in effect, another bit
-	' pattern for combinationBitPattern to be tested against.
+	#rem monkeydoc
+		The maximum possible index. This is, in effect, another bit
+		pattern for combinationBitPattern to be tested against.
+	#END
 	Field maximumIndex:Int
 	
-	' Calculates a bit pattern that will be used by NextValue() to build
-	' the next combination of elements.
+	#rem monkeydoc
+		Calculates a bit pattern that will be used by NextValue() to build
+		the next combination of elements.
+	#END
 	Method AdvancePointer:Void()
 		Local leastSignificantBit:Int = combinationBitPattern & - combinationBitPattern
 		Local wave:Int = combinationBitPattern + leastSignificantBit
@@ -24,12 +32,19 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 	End Method
 
 	Public
-	' Initialize a new Combinator. Elements is an array of type T, and
-	' groupSize is the number of elements to use in each combination.
+	#rem monkeydoc
+		Throws an exception if the user tries to instantiate
+		this generator without providing the necessary 
+		arguments.
+	#END
 	Method New()
 		Throw New CombinatorConstructorArgumentsException()
 	End Method
 	
+	#rem monkeydoc
+		Initialize a new Combinator. Elements is an array of type T, and
+		groupSize is the number of elements to use in each combination.
+	#END
 	Method New(_elements:T[], _groupSize:Int = 0)
 		If (_elements.Length > 30)
 			Throw New CombinatorElementsSizeException
@@ -50,26 +65,30 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Reset()
 	End Method
 
-	' Sets the initial bit pattern which will be used to select elements
-	' from the elements array to form a combination. This functionality
-	' is specific to the Combinator class. In general, Reset() should
-	' put the current object into the same state it was in when it was
-	' newly created.
+	#rem monkeydoc
+		Sets the initial bit pattern which will be used to select elements
+		from the elements array to form a combination. This functionality
+		is specific to the Combinator class. In general, Reset() should
+		put the current object into the same state it was in when it was
+		newly created.
+	#END
 	Method Reset:Void()
 		combinationBitPattern = (1 Shl groupSize) - 1
 		currentSeriesPosition = -1
 		currentValue = New T[groupSize]
 	End Method
 	
-	' Generates the next combination of elements, and returns it as
-	' an array. Elements are selected from the elements array based
-	' on the bits in combinationBitsPattern. For instance, a bit
-	' pattern of ... 001111 would select the first four elements
-	' from the array for use in the group. A bit pattern of
-	' ... 00101011 would select the first, second, fourth, and
-	' sixth elements from the elements array. This bit-fiddling
-	' is why this generator can only work with element lists
-	' containing less than thirty-one items.
+	#rem monkeydoc
+		Generates the next combination of elements, and returns it as
+		an array. Elements are selected from the elements array based
+		on the bits in combinationBitsPattern. For instance, a bit
+		pattern of ... 001111 would select the first four elements
+		from the array for use in the group. A bit pattern of
+		... 00101011 would select the first, second, fourth, and
+		sixth elements from the elements array. This bit-fiddling
+		is why this generator can only work with element lists
+		containing less than thirty-one items.
+	#END
 	Method NextValue:T[] ()
 		If (combinationBitPattern >= maximumIndex)
 			Return NIL
@@ -104,6 +123,11 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Return currentValue[ ..]
 	End Method
 	
+	#rem monkeydoc
+		Advances the internal pointer to the desired location
+		without generating the intervening combinations. This
+		is much faster than using ToArray().
+	#END
 	Method GetValueAtIndex:T[] (index:Int)
 		If (index < 0 Or index > length - 1)
 			Throw New CombinatorInvalidArgumentException()
@@ -128,6 +152,10 @@ Class Combinator<T> Extends CombinatoricsGenerator<T>
 		Return result
 	End Method
 	
+	#rem monkeydoc
+		Resets the generator, and returns an array with every combination
+		in the generator's space.
+	#END
 	Method ToArray:T[][] ()
 		Reset()
 		Return Super.ToArray()

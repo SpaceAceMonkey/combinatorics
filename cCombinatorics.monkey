@@ -1,8 +1,17 @@
 Strict
 
+#rem monkeydoc
+	This class provides math functions to aid in
+	the generation of combinations and permutations.
+	All member functions of this class are static,
+	and do not require you to instantiate the class
+	before use.
+#END
 Class Combinatorics
-	' Permutation count
-	' from Permutations permute = fPp = from! / (from - permute)!
+	#rem monkeydoc
+		Permutation count
+		from Permutations permute = fPp = from! / (from - permute)!
+	#END
 	Function PermutationsCount:Int(from:Int, permute:Int)
 		Local result:Int = 1
 		While (permute > 0)
@@ -14,8 +23,10 @@ Class Combinatorics
 		Return result
 	End Function
 	
-	' Combination count
-	' from Choose choose = fCc = from! / ((from-choose)! * choose!)
+	#rem monkeydoc
+		Combination count
+		from Choose choose = fCc = from! / ((from-choose)! * choose!)
+	#END
 	Function Choose:Int(from:Int, choose:Int)
 		If (choose > from)
 			Return 0
@@ -26,8 +37,10 @@ Class Combinatorics
 		Return result
 	End Function
 	
-	' Calculates the number of permutations of elements in groups
-	' sized from one to elements.Length.
+	#rem monkeydoc
+		Calculates the number of permutations of elements in groups
+		sized from one to elements.Length.
+	#END
 	Function MassPermutationsCount:Int(numberOfElements:Int)
 		Local result:Int = 0
 		For Local i:Int = 1 To numberOfElements
@@ -38,7 +51,9 @@ Class Combinatorics
 		Return result
 	End Function
 	
-	' Calculates number!
+	#rem monkeydoc
+		Calculates number!
+	#END
 	Function Factorial:Int(number:Int)
 		Local result:Int
 		result = PermutationsCount(number, number)
@@ -46,23 +61,31 @@ Class Combinatorics
 		Return result
 	End Function
 	
-	' Convert number into a varying-base representation. In general,
-	' FactorialRadix(number, places) =
-	' x * (places)! + y * (places - 1)! + z * (places - 2)! ...
-	'
-	' Examples:
-	' FactorialRadix(6, 4) =
-	' 0 * 4! + 1 * 3! + 0 * 2! + 0 * 1! + 0 * 0!
-	' FactorialRadix(22, 6) =
-	' 0 * 6! + 0 * 5! + 0 * 4! + 3 * 3! + 2 * 2! + 0 * 1!
-	' FactorialRadix(800, 6) =
-	' 1 * 6! + 0 * 5! + 3 * 4! + 1 * 3! + 1 * 2! + 0 * 1!
-	' FactorialRadix(2, 2) =
-	' 1 * 2! + 0 * 1!
-	'
-	' Returns an array of integers representing the multiplier at each
-	' position. For the example of FactorialRadix(800, 6) above, the
-	' resulting array would be [1, 0, 3, 1, 1, 0].
+	#rem monkeydoc
+		Convert number into a varying-base representation. In general,
+		FactorialRadix(number, places) =
+		x * (places)! + y * (places - 1)! + z * (places - 2)! ...
+		
+		The result always ends with 0 * 0! and the array is orderd
+		from least-significant place, to most-significant place.
+		
+		Examples:
+		FactorialRadix(6, 4) =
+		0 * 4! + 1 * 3! + 0 * 2! + 0 * 1! + 0 * 0! =
+		[0, 0, 0, 1, 0]
+		FactorialRadix(22, 6) =
+		0 * 6! + 0 * 5! + 0 * 4! + 3 * 3! + 2 * 2! + 0 * 1! + 0 * 0! =
+		[0, 0, 2, 3, 0, 0, 0]
+		FactorialRadix(800, 6) =
+		1 * 6! + 0 * 5! + 3 * 4! + 1 * 3! + 1 * 2! + 0 * 1! + 0 * 0! =
+		[0, 0, 1, 1, 3, 0, 1]
+		FactorialRadix(2, 2) =
+		1 * 2! + 0 * 1! + 0 * 0! =
+		[0, 0, 1]
+		
+		Returns an array of integers representing the multiplier at each
+		position.
+	#END
 	Function FactorialRadix:Int[] (number:Int, places:Int = 0)
 		Local factor:Int = 1
 		If Not (places)

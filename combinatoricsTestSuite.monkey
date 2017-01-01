@@ -10,20 +10,20 @@ Import cTernary
 Function Main:Int()
 	Local date:Int[] = GetDate()
 	Seed = date[5] | date[6]
-
+	
 	Local aString:String = "abcdefgh"
 	Local numberToChoose:Int = 6
 
-'	TestCombinator(aString, numberToChoose)
+	TestCombinator(aString, numberToChoose)
 
 	aString = "abcd"
-'	TestPermuter(aString)
+	TestPermuter(aString)
 	
 	aString = "abcdef"
 	numberToChoose = 2
-'	TestCombinatorPermuter(aString, numberToChoose)
+	TestCombinatorPermuter(aString, numberToChoose)
 	
-	aString = "ab"
+	aString = "abcd"
 	TestMassPermuter(aString)
 	
 	Return 0
@@ -181,13 +181,6 @@ Function TestMassPermuter:Void(aString:String)
 	ShowResultsBlock(ic, 40)
 	Print ""
 
-Print "Index test"
-	Print Implode(ic.GetValueAtIndex(0))
-	Print Implode(ic.GetValueAtIndex(1))
-	Print "======== Trouble indexes start now ========"
-	Print Implode(ic.GetValueAtIndex(2))
-	Print Implode(ic.GetValueAtIndex(3))
-	#rem
 	Print "---- To[Array|Stack|List]() tests ----"
 	Print "Resetting and generating array."
 	milliseconds = Millisecs()
@@ -222,7 +215,6 @@ Print "Index test"
 	TestNextElementTransform(ic)
 	TestNextValueTransform(ic)
 	Print ""
-#end
 End Function
 
 Function TestNextElementTransform:Void(g:ICombinatoricsGenerator<String>)
