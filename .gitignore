@@ -1,2 +1,3 @@
-combinatoricsTestSuite.build*
-combinatorics.build*
+modules/spaceace/combinatorics/combinatoricsTestSuite.build*
+modules/spaceace/combinatorics/combinatorics.build*
+modules/spaceace/combinatorics/combinatorics.jungle*
