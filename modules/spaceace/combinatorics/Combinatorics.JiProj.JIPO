@@ -3,7 +3,7 @@
   <Files>
     <DocUserOptions Filename=".\cCombinator.monkey" Open="true" SplitView="false" SplitIsVertical="false" SplitSize="179">
       <CursorPos>
-        <X>67</X>
+        <X>11</X>
         <Y>155</Y>
       </CursorPos>
       <OutLiningSerialization>
@@ -11,13 +11,28 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>5</X>
-            <Y>7</Y>
+            <Y>1</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>0</ASTNestingLevel>
           <StartPoint>
             <X>0</X>
-            <Y>4</Y>
+            <Y>0</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>10</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>7</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -26,13 +41,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
-            <Y>162</Y>
+            <Y>165</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>0</ASTNestingLevel>
           <StartPoint>
             <X>16</X>
-            <Y>8</Y>
+            <Y>11</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -41,13 +56,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>17</Y>
+            <Y>20</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>14</Y>
+            <Y>17</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -56,13 +71,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>23</Y>
+            <Y>26</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>20</Y>
+            <Y>23</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -71,13 +86,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>31</Y>
+            <Y>34</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>29</X>
-            <Y>24</Y>
+            <Y>27</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -86,43 +101,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>38</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
-            <X>1</X>
-            <Y>34</Y>
-          </StartPoint>
-          <Text>Rem...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>4</X>
             <Y>41</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
-            <X>13</X>
-            <Y>39</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>Rem...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>46</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
             <X>1</X>
-            <Y>43</Y>
+            <Y>37</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -131,13 +116,43 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>4</X>
-            <Y>65</Y>
+            <Y>44</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>13</X>
+            <Y>42</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>49</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>46</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>4</X>
+            <Y>68</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>46</X>
-            <Y>47</Y>
+            <Y>50</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -146,58 +161,28 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>50</Y>
+            <Y>53</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>28</X>
-            <Y>48</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>7</X>
-            <Y>57</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>21</X>
             <Y>51</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
-          <Collapsed_Text>Rem...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>73</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
-            <X>1</X>
-            <Y>67</Y>
-          </StartPoint>
-          <Text>Rem...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
-            <X>11</X>
-            <Y>78</Y>
+            <X>7</X>
+            <Y>60</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
+          <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
-            <X>20</X>
-            <Y>74</Y>
+            <X>21</X>
+            <Y>54</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -206,13 +191,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>90</Y>
+            <Y>76</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>80</Y>
+            <Y>70</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -221,13 +206,43 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>123</Y>
+            <Y>81</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>20</X>
+            <Y>77</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>93</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>83</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>126</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>24</X>
-            <Y>91</Y>
+            <Y>94</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -236,13 +251,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>94</Y>
+            <Y>97</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>44</X>
-            <Y>92</Y>
+            <Y>95</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -251,13 +266,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>114</Y>
+            <Y>117</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>18</X>
-            <Y>102</Y>
+            <Y>105</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -266,13 +281,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>8</X>
-            <Y>110</Y>
+            <Y>113</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>3</ASTNestingLevel>
           <StartPoint>
             <X>20</X>
-            <Y>103</Y>
+            <Y>106</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -281,13 +296,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
-            <Y>108</Y>
+            <Y>111</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>4</ASTNestingLevel>
           <StartPoint>
             <X>34</X>
-            <Y>104</Y>
+            <Y>107</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -296,13 +311,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>120</Y>
+            <Y>123</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>30</X>
-            <Y>118</Y>
+            <Y>121</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -311,13 +326,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>129</Y>
+            <Y>132</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>125</Y>
+            <Y>128</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -326,13 +341,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>152</Y>
+            <Y>155</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>39</X>
-            <Y>130</Y>
+            <Y>133</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -341,13 +356,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>133</Y>
+            <Y>136</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>38</X>
-            <Y>131</Y>
+            <Y>134</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -356,13 +371,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>143</Y>
+            <Y>146</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>11</X>
-            <Y>141</Y>
+            <Y>144</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -371,13 +386,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>157</Y>
+            <Y>160</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>154</Y>
+            <Y>157</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -386,13 +401,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>161</Y>
+            <Y>164</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>24</X>
-            <Y>158</Y>
+            <Y>161</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -403,13 +418,28 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>5</X>
-            <Y>7</Y>
+            <Y>1</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>0</ASTNestingLevel>
           <StartPoint>
             <X>0</X>
-            <Y>4</Y>
+            <Y>0</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>10</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>7</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -418,13 +448,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
-            <Y>162</Y>
+            <Y>165</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>0</ASTNestingLevel>
           <StartPoint>
             <X>16</X>
-            <Y>8</Y>
+            <Y>11</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -433,13 +463,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>17</Y>
+            <Y>20</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>14</Y>
+            <Y>17</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -448,13 +478,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>23</Y>
+            <Y>26</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>20</Y>
+            <Y>23</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -463,13 +493,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>31</Y>
+            <Y>34</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>29</X>
-            <Y>24</Y>
+            <Y>27</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -478,43 +508,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>38</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
-            <X>1</X>
-            <Y>34</Y>
-          </StartPoint>
-          <Text>Rem...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>4</X>
             <Y>41</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
-            <X>13</X>
-            <Y>39</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>Rem...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>46</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
             <X>1</X>
-            <Y>43</Y>
+            <Y>37</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -523,13 +523,43 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>4</X>
-            <Y>65</Y>
+            <Y>44</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>13</X>
+            <Y>42</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>49</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>46</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>4</X>
+            <Y>68</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>46</X>
-            <Y>47</Y>
+            <Y>50</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -538,58 +568,28 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>50</Y>
+            <Y>53</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>28</X>
-            <Y>48</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>7</X>
-            <Y>57</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>21</X>
             <Y>51</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
-          <Collapsed_Text>Rem...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>73</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
-          <StartPoint>
-            <X>1</X>
-            <Y>67</Y>
-          </StartPoint>
-          <Text>Rem...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
-            <X>11</X>
-            <Y>78</Y>
+            <X>7</X>
+            <Y>60</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>1</ASTNestingLevel>
+          <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
-            <X>20</X>
-            <Y>74</Y>
+            <X>21</X>
+            <Y>54</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -598,13 +598,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>90</Y>
+            <Y>76</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>80</Y>
+            <Y>70</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -613,13 +613,43 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>123</Y>
+            <Y>81</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>20</X>
+            <Y>77</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>93</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>83</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>126</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>24</X>
-            <Y>91</Y>
+            <Y>94</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -628,13 +658,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>94</Y>
+            <Y>97</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>44</X>
-            <Y>92</Y>
+            <Y>95</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -643,13 +673,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>114</Y>
+            <Y>117</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>18</X>
-            <Y>102</Y>
+            <Y>105</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -658,13 +688,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>8</X>
-            <Y>110</Y>
+            <Y>113</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>3</ASTNestingLevel>
           <StartPoint>
             <X>20</X>
-            <Y>103</Y>
+            <Y>106</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -673,13 +703,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
-            <Y>108</Y>
+            <Y>111</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>4</ASTNestingLevel>
           <StartPoint>
             <X>34</X>
-            <Y>104</Y>
+            <Y>107</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -688,13 +718,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>120</Y>
+            <Y>123</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>30</X>
-            <Y>118</Y>
+            <Y>121</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -703,13 +733,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>129</Y>
+            <Y>132</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>125</Y>
+            <Y>128</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -718,13 +748,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>152</Y>
+            <Y>155</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>39</X>
-            <Y>130</Y>
+            <Y>133</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -733,13 +763,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>7</X>
-            <Y>133</Y>
+            <Y>136</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>38</X>
-            <Y>131</Y>
+            <Y>134</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -748,13 +778,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>143</Y>
+            <Y>146</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>2</ASTNestingLevel>
           <StartPoint>
             <X>11</X>
-            <Y>141</Y>
+            <Y>144</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -763,13 +793,13 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
-            <Y>157</Y>
+            <Y>160</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>1</X>
-            <Y>154</Y>
+            <Y>157</Y>
           </StartPoint>
           <Text>Rem...</Text>
           <Expanded>true</Expanded>
@@ -778,13 +808,13 @@
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
-            <Y>161</Y>
+            <Y>164</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
           <ASTNestingLevel>1</ASTNestingLevel>
           <StartPoint>
             <X>24</X>
-            <Y>158</Y>
+            <Y>161</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -830,6 +860,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>13</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>10</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -857,6 +902,21 @@
             <Y>16</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>28</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>25</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -890,6 +950,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>42</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>39</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -920,6 +995,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>55</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>53</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -932,6 +1022,21 @@
             <Y>56</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>87</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>63</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1042,6 +1147,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>13</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>10</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -1069,6 +1189,21 @@
             <Y>16</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>28</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>25</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1102,6 +1237,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>42</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>39</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -1132,6 +1282,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>55</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>53</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>13</X>
@@ -1144,6 +1309,21 @@
             <Y>56</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>87</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>63</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1247,6 +1427,141 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>9</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>7</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>13</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>11</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>17</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>15</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>22</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>19</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>30</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>24</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>36</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>32</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>40</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>38</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>44</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>42</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>51</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>48</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1259,6 +1574,21 @@
             <Y>52</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>59</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>56</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1277,6 +1607,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>67</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>64</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1289,6 +1634,21 @@
             <Y>68</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>75</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>72</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1307,6 +1667,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>83</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>80</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1319,6 +1694,21 @@
             <Y>84</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>90</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>88</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1352,6 +1742,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>102</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>100</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1364,6 +1769,21 @@
             <Y>103</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>111</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>109</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1382,6 +1802,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>122</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>118</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1394,6 +1829,21 @@
             <Y>123</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>130</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>127</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1429,6 +1879,141 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>9</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>7</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>13</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>11</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>17</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>15</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>22</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>19</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>30</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>24</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>36</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>32</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>40</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>38</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>44</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>42</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>51</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>48</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1441,6 +2026,21 @@
             <Y>52</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>59</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>56</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1459,6 +2059,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>67</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>64</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1471,6 +2086,21 @@
             <Y>68</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>75</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>72</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1489,6 +2119,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>83</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>80</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1501,6 +2146,21 @@
             <Y>84</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>90</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>88</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1534,6 +2194,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>102</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>100</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1546,6 +2221,21 @@
             <Y>103</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>111</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>109</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1564,6 +2254,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>122</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>118</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1576,6 +2281,21 @@
             <Y>123</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>130</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>127</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1599,8 +2319,8 @@
     </DocUserOptions>
     <DocUserOptions Filename=".\cCombinatorPermuter.monkey" Open="true" SplitView="false" SplitIsVertical="false" SplitSize="179">
       <CursorPos>
-        <X>0</X>
-        <Y>162</Y>
+        <X>5</X>
+        <Y>20</Y>
       </CursorPos>
       <OutLiningSerialization>
         <Folding_Nodes_Collection>
@@ -1814,6 +2534,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>73</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>71</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1889,6 +2624,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>107</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>102</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1904,6 +2654,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>117</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>112</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1916,6 +2681,21 @@
             <Y>118</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>128</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>122</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -1964,6 +2744,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>151</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>149</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -1976,6 +2771,21 @@
             <Y>152</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>162</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>159</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -2206,6 +3016,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>73</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>71</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -2281,6 +3106,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>107</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>102</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -2296,6 +3136,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>117</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>112</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -2308,6 +3163,21 @@
             <Y>118</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>128</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>122</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -2356,6 +3226,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>151</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>149</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -2368,6 +3253,21 @@
             <Y>152</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>162</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>159</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -2391,8 +3291,8 @@
     </DocUserOptions>
     <DocUserOptions Filename=".\cMassPermuter.monkey" Open="true" SplitView="false" SplitIsVertical="false" SplitSize="179">
       <CursorPos>
-        <X>0</X>
-        <Y>145</Y>
+        <X>8</X>
+        <Y>12</Y>
       </CursorPos>
       <OutLiningSerialization>
         <Folding_Nodes_Collection>
@@ -2421,6 +3321,96 @@
           <StartPoint>
             <X>18</X>
             <Y>11</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>21</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>16</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>26</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>46</X>
+            <Y>22</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>25</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>2</ASTNestingLevel>
+          <StartPoint>
+            <X>11</X>
+            <Y>23</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>32</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>28</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>37</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>44</X>
+            <Y>33</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>36</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>2</ASTNestingLevel>
+          <StartPoint>
+            <X>11</X>
+            <Y>34</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -2606,36 +3596,6 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>82</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>11</X>
-            <Y>80</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>93</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>11</X>
-            <Y>91</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
@@ -2813,6 +3773,21 @@
             <Y>166</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>175</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>170</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -2866,6 +3841,96 @@
           <Collapsed_Text>Rem...</Collapsed_Text>
           <EndPoint>
             <X>6</X>
+            <Y>21</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>16</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>26</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>46</X>
+            <Y>22</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>25</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>2</ASTNestingLevel>
+          <StartPoint>
+            <X>11</X>
+            <Y>23</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>32</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>28</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>11</X>
+            <Y>37</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>44</X>
+            <Y>33</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>36</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>2</ASTNestingLevel>
+          <StartPoint>
+            <X>11</X>
+            <Y>34</Y>
+          </StartPoint>
+          <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
             <Y>43</Y>
           </EndPoint>
           <IsEmpty>false</IsEmpty>
@@ -3038,36 +4103,6 @@
           <StartPoint>
             <X>30</X>
             <Y>87</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>82</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>11</X>
-            <Y>80</Y>
-          </StartPoint>
-          <Text>...</Text>
-          <Expanded>true</Expanded>
-        </Folding_Nodes_Collection>
-        <Folding_Nodes_Collection>
-          <Collapsed_Text>...</Collapsed_Text>
-          <EndPoint>
-            <X>6</X>
-            <Y>93</Y>
-          </EndPoint>
-          <IsEmpty>false</IsEmpty>
-          <ASTNestingLevel>2</ASTNestingLevel>
-          <StartPoint>
-            <X>11</X>
-            <Y>91</Y>
           </StartPoint>
           <Text>...</Text>
           <Expanded>true</Expanded>
@@ -3253,6 +4288,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>175</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>170</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -3273,8 +4323,8 @@
     </DocUserOptions>
     <DocUserOptions Filename=".\combinatoricsTestSuite.monkey" Open="true" SplitView="false" SplitIsVertical="false" SplitSize="179">
       <CursorPos>
-        <X>19</X>
-        <Y>21</Y>
+        <X>9</X>
+        <Y>28</Y>
       </CursorPos>
       <OutLiningSerialization>
         <Folding_Nodes_Collection>
@@ -3350,7 +4400,7 @@
             <Y>82</Y>
           </StartPoint>
           <Text>...</Text>
-          <Expanded>false</Expanded>
+          <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
@@ -4145,6 +5195,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>32</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>30</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4235,6 +5300,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>66</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>63</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4250,6 +5330,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>74</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>72</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4262,6 +5357,21 @@
             <Y>75</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>83</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>80</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -4372,6 +5482,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>32</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>30</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4462,6 +5587,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>66</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>63</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4477,6 +5617,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>74</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>72</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>11</X>
@@ -4489,6 +5644,21 @@
             <Y>75</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>6</X>
+            <Y>83</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>1</ASTNestingLevel>
+          <StartPoint>
+            <X>1</X>
+            <Y>80</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -5077,6 +6247,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>14</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>8</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
@@ -5092,6 +6277,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>21</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>17</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
@@ -5104,6 +6304,21 @@
             <Y>22</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>27</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>24</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -5154,6 +6369,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>14</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>8</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
@@ -5169,6 +6399,21 @@
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>21</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>17</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
           <Collapsed_Text>...</Collapsed_Text>
           <EndPoint>
             <X>9</X>
@@ -5181,6 +6426,21 @@
             <Y>22</Y>
           </StartPoint>
           <Text>...</Text>
+          <Expanded>true</Expanded>
+        </Folding_Nodes_Collection>
+        <Folding_Nodes_Collection>
+          <Collapsed_Text>Rem...</Collapsed_Text>
+          <EndPoint>
+            <X>5</X>
+            <Y>27</Y>
+          </EndPoint>
+          <IsEmpty>false</IsEmpty>
+          <ASTNestingLevel>0</ASTNestingLevel>
+          <StartPoint>
+            <X>0</X>
+            <Y>24</Y>
+          </StartPoint>
+          <Text>Rem...</Text>
           <Expanded>true</Expanded>
         </Folding_Nodes_Collection>
         <Folding_Nodes_Collection>
@@ -5204,10 +6464,40 @@
     </DocUserOptions>
   </Files>
   <Folders>
-    <FolderStatus NodePath="Combinatorics\combinatorics.buildv86e" Expanded="false" />
-    <FolderStatus NodePath="Combinatorics\combinatorics.buildv86e\html5" Expanded="false" />
-    <FolderStatus NodePath="Combinatorics\combinatorics.buildv86e\html5\data" Expanded="false" />
     <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\gcc_linux" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\gcc_winnt" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\deps" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\deps\EGL" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\deps\GL" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\deps\glad" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\deps\KHR" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\include" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\include\GLFW" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\glfw3\src" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\msvc" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\msvc\Debug" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\msvc\Debug\data" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\msvc\Debug\external" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\msvc\Debug\internal" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\include" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win32" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win32\EFX-Util_MT" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win32\EFX-Util_MTDLL" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win64" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win64\EFX-Util_MT" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\openal\libs\Win64\EFX-Util_MTDLL" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\stb" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode\data" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode\English.lproj" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode\external" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode\internal" Expanded="false" />
+    <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\glfw3\xcode\MonkeyGame.xcodeproj" Expanded="false" />
     <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\html5" Expanded="false" />
     <FolderStatus NodePath="Combinatorics\combinatoricsTestSuite.buildv86e\html5\data" Expanded="false" />
   </Folders>

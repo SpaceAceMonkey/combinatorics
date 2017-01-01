@@ -1,3 +1,6 @@
+#Rem monkeydoc Module spaceace.combinatorics
+#End
+
 Strict
 
 Import cCombinatoricsGenerator
